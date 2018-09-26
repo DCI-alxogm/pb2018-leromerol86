@@ -1,0 +1,5 @@
+# Integral <H2>
+El orden de los valores es el siguiente : exponencial (P),Trapecios(n),rango inferior(min),rango superior(max),nuemero de evaluaciones(k). Se escribe estos valores en una sola linea con la semaparacion de un espacio, sin coma.
+Se implementaron dos ciclos **for**, el primer ciclo es glabal para todas las operaciones de la integral y de la función, y el segundo para realizar la sumatoria en el método del trapecio.
+Se mantubieron las variables del metodo de la integral (n,min,max,h) y todas las variables numéricas de son de tipo **float**, a escepción del n(número de trapecios) y p (el exponencial).Se dividio en 3 partes el método del polígono y estos valores de cada parte se almacenaron en dos variables (s1 y s2) que son el promedio de las dos funciones de su los limites (s1) y la sumatoria (s2).
+Se creo y abrio un archivo txt llamado **"Resultados.txt"**,el archivo se matiene abierto durante todo el proceso de las operaciones matemáticas las cuales se encuentran en un ciclo y de esta forma se imprimen secuencialmente los resultados.Para la impresión de estos resultados se usó la funcion de fprintf
