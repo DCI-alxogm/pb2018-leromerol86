@@ -1,0 +1,4 @@
+# Funcion (Carpeta) <H1>
+En esta carpeta se encuentran dos archivos en el que se dividieron la entrada de datos y el procesamiento de datos del ejercicio de coordenas de la semana3. Se dividieron estos dos procesosen el cual los calculos matematicos es el programa principal y la entrada de datos es el segundo.Se conpartio la memoria de las variables mediante punteros definidos en la función de entrada, de esta forma solo se agragaron la variables que se usarian en los argumentos de la función.
+# Coordenadas <H1>
+Se realizó un programa que realiza las coordenas de puntos equidistantes, en este caso solo se realizó una suma del parametra de distancia entre cada punto, el cual era proporcionado en la termina y era el dato dumero 2 ingresado **(argt[2])**, y el primer parametro ingresado es la cantidad de puntos **(argt[1])** y el ultimo parametro es el nombre del archivo, al cual se le concatena la extención ".txt" para que sea abierto como simple texto.
