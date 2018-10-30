@@ -1,11 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-float PuntosV(float v[4])
+double PuntosV(double a,double b,double c, double d)
 	{
-		for (int i = 0; i < 4; i++) {
-			h+=V[i];
-		}
-		h/=4;
+		double h;
+		h = (a+b+c+d)/4;//ESta función se encarga de obtener el promedio de cada punto, solicitando los valores iniciales y retornando el necesario
 		return h;
 	}
