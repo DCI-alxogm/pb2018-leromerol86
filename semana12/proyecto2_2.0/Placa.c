@@ -1,9 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-#include"funci.h"
 double PuntosV(double a,double b,double c, double d);
-int tmp(int argc, char*argv []){
+int main(int argc, char*argv []){
 		int n = atoi(argv[1]),o,i,c =0,e;
     char name [255];
     double T[n][n],Br[4],x ,y, delta;
